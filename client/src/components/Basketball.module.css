@@ -1,0 +1,89 @@
+.basketball {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+    border: 0.1rem solid #000;
+    position: relative;
+}
+
+.showFirework {
+    display: flex;  
+}
+.Anmatcat{
+    width: 8rem;
+    height: auto;
+}
+.hideFirework {
+    display: none;
+}
+.fireworkPomidoras{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1; 
+    pointer-events: none; 
+}
+.firework{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1; 
+    pointer-events: none; 
+}
+.white{
+    background-color: rgb(8, 91, 163);
+}
+.datzovies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem; 
+    margin-top: 1rem;
+}
+.pomidoras, .ogurkas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem; 
+}
+.screen {
+    font-size: 3rem;
+}
+.controls {
+    display: flex;
+    gap: 1rem;
+}
+.team {
+    display: flex;
+    gap: 1rem;
+}
+.btnOgurkas, .btnPomidoras{
+    padding: 0.3em;
+    font-size: 1rem;
+    color: #424242;
+}
+.listPomidoras, .listOgorkas{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.tomato, .cucumber{
+    display: inline;
+    justify-content: center; 
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-right: 0.5rem;
+    margin-left:0.5rem;
+    margin-top: 0.7rem;
+}
+.textPomidoras, .textOgurkas{
+    font-size: 1.5rem;
+}

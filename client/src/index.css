@@ -13,6 +13,7 @@ body {
 
 .container {
   display: flex;
+  flex-direction: row;
   gap: 3rem;
   padding: 1rem 2rem;
   align-items:flex-start;
@@ -61,11 +62,10 @@ button{
   color: #424242;
   box-shadow: -6px -6px 10px #f9f9f9,
               6px 6px 10px #00000026;
-  border-radius: 25px;
-  font-size: 23px;
-  height: 3rem;
+  font-size: 1.3rem;
+  height: 2rem;
   line-height: 30px;
-  width: 20rem;
+  width: 6rem;
   cursor:pointer;
 }
 button:hover{
